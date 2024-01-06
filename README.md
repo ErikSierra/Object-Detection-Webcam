@@ -6,4 +6,6 @@ Process:
 2. Labels detected objects with outline, name, and confidence level
 3. When a person is detected, automatic recording initiates until the person is no longer detected for five seconds or more. When recording stops, the video is saved to local C: drive
 4. When a person is detected, an automatic email notification is sent to the selected receipient with a description and screenshot of the detected person at a single time
-5. 
+
+
+
