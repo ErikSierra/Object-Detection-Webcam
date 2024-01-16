@@ -1,3 +1,7 @@
+#Object Detection Webcam
+#Erik Sierra
+#Last Updated: 1/07/23
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -22,8 +26,8 @@ cap.set(4, 480)
 model = YOLO(r"C:\Coding Stuff\Python Projects\Security_Camera\models\yolov8l.pt")
 
 # Email configuration
-USER = "erik.sierra77@gmail.com"  # Your Gmail address
-PASS = "xqyd ijkw liwm hcvk"  # Your app password
+USER = "youremail@email.com"  # Your Gmail address
+PASS = "abcd abcd abcd abcd"  # Your app password
 
 
 def send_email(subject, message, image_path=None):
