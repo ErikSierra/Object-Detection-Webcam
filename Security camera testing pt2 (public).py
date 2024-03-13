@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 from ultralytics import YOLO
-import cv2
-import math
+import cv2 #openCV
+import math 
 import time
 import os
 import datetime
