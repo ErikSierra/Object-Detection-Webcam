@@ -1,5 +1,5 @@
 # Object-Detection-Webcam
-This is a desktop webcam utilizing the YOLOv8 (You Only Look Once) model to detect persons in a closed environment.
+This is a desktop webcam utilizing Ultralytics YOLOv8 (You Only Look Once) model to detect persons in a closed environment.
 
 Process:
 1. Observe the environment, while detecting objects included in the pre-trained library
