@@ -8,7 +8,7 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # model
-model = YOLO(r"C:\Coding Stuff\Python Projects\Security_Camera\models\yolov8x.pt")
+model = YOLO("./models/yolov8x_dummy.pt")
 
 # object classes
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
