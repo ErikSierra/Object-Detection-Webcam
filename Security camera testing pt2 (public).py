@@ -26,7 +26,7 @@ cap.set(4, 480)
 model = YOLO(r"C:\Coding Stuff\Python Projects\Security_Camera\models\yolov8l.pt")
 
 # Email configuration
-USER = "youremail@email.com"  # Your Gmail address
+USER = "youremail@example.com"  # Your Gmail address
 PASS = "abcd abcd abcd abcd"  # Your app password
 
 
@@ -43,7 +43,7 @@ def send_email(subject, message, image_path=None):
             mime.add_header('Content-Disposition', 'attachment', filename=os.path.basename(image_path))
             msg.attach(mime)
 
-    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+    with smtplib.SMTP_SSL('smtp.example.com', 465) as server:
         server.login(USER, PASS)
         server.sendmail(USER, USER, msg.as_string())
         print("Email sent successfully")
